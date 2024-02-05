@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "umami",
       websiteId: "7cf1652e-1efc-4ca4-8000-c6f9844d34d3",
-      host: "https://us.umami.is",
+      host: "https://analytics.umami.is/script.js",
     },
     locale: "en-US",
     baseUrl: "blog.northin.dev",
