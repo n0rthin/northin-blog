@@ -1,6 +1,8 @@
 ---
 description: A home for my notes on things I study or just find interesting.
+title: Home
 ---
+
 A home for my notes on things I study or just find interesting.
 
 You might find interesting:
