@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"1d275b17a4560c78","x":-522,"y":-171,"width":250,"height":60,"type":"text","text":"Individual interests"},
+		{"id":"85747f228deb7a8f","x":-182,"y":-171,"width":250,"height":60,"type":"text","text":"candidate generation"},
+		{"id":"e4bfffef95a50a3b","x":-182,"y":-60,"width":250,"height":60,"type":"text","text":"candidate ranking"},
+		{"id":"6ab38521d4f16857","x":-182,"y":61,"width":250,"height":60,"type":"text","text":"filtering"},
+		{"id":"830db85d2d9a1fa3","x":164,"y":-171,"width":250,"height":60,"type":"text","text":"item similarities"},
+		{"id":"d1b6e0fc6c2e22d3","x":-181,"y":183,"width":250,"height":60,"type":"text","text":"top-N recomendations"}
+	],
+	"edges":[
+		{"id":"4e2d9373dab52e84","fromNode":"1d275b17a4560c78","fromSide":"right","toNode":"85747f228deb7a8f","toSide":"left"},
+		{"id":"7cf5dabee1a7f5a9","fromNode":"830db85d2d9a1fa3","fromSide":"left","toNode":"85747f228deb7a8f","toSide":"right"},
+		{"id":"1bd5e68aa4277775","fromNode":"85747f228deb7a8f","fromSide":"bottom","toNode":"e4bfffef95a50a3b","toSide":"top"},
+		{"id":"d58dd5d142b41397","fromNode":"e4bfffef95a50a3b","fromSide":"bottom","toNode":"6ab38521d4f16857","toSide":"top"},
+		{"id":"3798aeebff510d88","fromNode":"6ab38521d4f16857","fromSide":"bottom","toNode":"d1b6e0fc6c2e22d3","toSide":"top"}
+	]
+}

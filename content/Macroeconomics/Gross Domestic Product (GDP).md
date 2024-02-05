@@ -1,0 +1,1 @@
+Measure of economic activity

@@ -1,0 +1,1 @@
+The likelihood that a relationship between two or more variables is caused by something other than chance

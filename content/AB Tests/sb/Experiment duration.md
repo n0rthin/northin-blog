@@ -1,0 +1,7 @@
+Knowing [[confidence level]], [[statistical power]], and [[Minimal Effect of Interest (MEI)|MEI]], we can calculate how much data we need to collect during our experiment. Calculation is basically answering following questions: assuming our hypothesis is true how much data we need to collect to confirm it with 95% confidence? And if it's not true in reality how much data we need to confirm it with 80% confidence?
+
+Once we know how much data we need to collect we can calculate duration based on how fast we're collecting data. For example, we want to optimize conversion from products page to checkout page. Let's imagine that we need 1000 visitors in control and experimental group, 2000 in total. Since we know how much daily visitors we have we can calculate how long it'll take to reach statistical significance. With 500 daily visitors it would take 4 days. In business context it's best practice to have experiment duration at least one fill business cycle and to not stop test in mid-cycle. So if our business cycle is 7 days then we would round experiment duration to one week.
+
+The more confident we want to be the more data we need to collect. This is a trade-off that we can use if we can't afford longer experiments. We can do experiment in less time but be less confident in results. 
+Minimal effect of interest, on another hand, has inverse relation to experiment duration. 
+A change that improves metric by 10% requires less data to confirm that than change that improves only by 5%.

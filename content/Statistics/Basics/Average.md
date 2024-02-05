@@ -1,0 +1,3 @@
+# Average
+[[Mean]]
+[[Median]]
