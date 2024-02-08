@@ -32,6 +32,7 @@ export default (() => {
         <meta name="generator" content="Quartz" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="canonical" href={`https://${cfg.baseUrl}/${fileData.slug}`} />
         {css.map((href) => (
           <link key={href} href={href} rel="stylesheet" type="text/css" spa-preserve />
         ))}
