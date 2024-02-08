@@ -16,6 +16,7 @@ export default (() => {
 
     const iconPath = joinSegments(baseDir, "static/icon.png")
     const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
+    const fullUrl = `https://${cfg.baseUrl}/${fileData.slug}`
 
     return (
       <head>
@@ -24,6 +25,8 @@ export default (() => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
+        <meta property="og:url" content={fullUrl} />
+        <meta property="og:type" content={(fileData.frontmatter?.type as string) || "article"} />
         {cfg.baseUrl && <meta property="og:image" content={ogImagePath} />}
         <meta property="og:width" content="1200" />
         <meta property="og:height" content="675" />
@@ -32,7 +35,7 @@ export default (() => {
         <meta name="generator" content="Quartz" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link rel="canonical" href={`https://${cfg.baseUrl}/${fileData.slug}`} />
+        <link rel="canonical" href={fullUrl} />
         {css.map((href) => (
           <link key={href} href={href} rel="stylesheet" type="text/css" spa-preserve />
         ))}
