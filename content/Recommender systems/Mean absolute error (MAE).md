@@ -3,7 +3,7 @@ aliases: (MAE)
 ---
 
 The lower the better
-$$MAE = \frac{\sum_{i=1}^{n} |y_i - x_i|}{n}&&$$
+$$MAE = \frac{\sum_{i=1}^{n} |y_i - x_i|}{n}$$
 Let's say test dataset has $n$ ratings. These are real ratings provided by users explicitly or implicitly.
 
 1. We ask our recommender system to generate their own ratings for products.

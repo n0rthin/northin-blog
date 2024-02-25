@@ -1,4 +1,4 @@
-$$\frac{hits}{users}&&$$
+$$\frac{hits}{users}$$
 Generate top-n recommendations for all users in test set. If one of the recommendations is something that a user is really bought (rated) consider it a hit
 Some up all hits in the test set and divide by users amount - the result is _hit rate_
 Hit rate shows accuracy of top-n lists, not accuracy of the ratings itself
