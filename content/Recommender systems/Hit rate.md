@@ -1,6 +1,6 @@
-$$\begin{flalign} \frac{hits}{users}&&\end{flalign}$$
+$$\frac{hits}{users}&&$$
 Generate top-n recommendations for all users in test set. If one of the recommendations is something that a user is really bought (rated) consider it a hit
-Some up all hits in the test set and divide by users amount - the result is *hit rate*
+Some up all hits in the test set and divide by users amount - the result is _hit rate_
 Hit rate shows accuracy of top-n lists, not accuracy of the ratings itself
 The problem with hit rate is that it uses train dataset to validate recommender system which is a bad practice. Recommender should be trained and validated on different datasets. One of the ways to achieve is to use leave-one-out cross validation
 
